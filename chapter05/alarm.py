@@ -1,6 +1,6 @@
 ﻿
 # Speaking alarm clock using Raspberry Pi
-#Connect 3.5" LCD and speaker though AUX and run the program with PyQt4 and espeak packages
+# Connect 3.5" LCD and speaker though AUX and run the program with PyQt4 and espeak packages
 # Program by: B.Aswinth Raj
 # Website: circuitdigest.com
 #

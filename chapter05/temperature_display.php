@@ -10,7 +10,7 @@ $db_conn = mysqli_connect($mysql_host, $mysql_user, $mysql_pass, $mysql_db);
 // charset 설정
 mysqli_query($db_conn, "set names utf8");
 
-// 내등록일을 기준으로 하여 내림차순으로 정보를 추출한다. 
+// 내등록일을 기준으로 하여 내림차순으로 최대 12개의 정보를 추출한다. 
 $query="SELECT * FROM `temperature` ORDER BY regday DESC limit 12";
 echo "[DEBUG] MySQL Query:<br>";
 echo "$query";

@@ -1,3 +1,3 @@
-﻿import sys
+import sys
 print (sys.path[0])
-sys.path.append("D:/iot")
+sys.path.append("W:/iot")

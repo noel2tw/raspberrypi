@@ -1,7 +1,7 @@
-﻿<?php
+<?php
 # openweathermap.org에서 회원가입을 하면 무료로 API key를 수령 가능하다. 
-$apiKey = "YOUR_API KEY";
-$cityId = "YOUR_CITY ID";
+$apiKey = "YOUR_API KEY IN";
+$cityId = "YOUR_CITY ID IN";
 
 $googleApiUrl = "http://api.openweathermap.org/data/2.5/weather?id=" . $cityId . "&lang=en&units=metric&APPID=" . $apiKey;
 

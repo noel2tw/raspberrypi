@@ -1,4 +1,3 @@
-﻿
 ## 참조 사이트
 
 * https://www.raspberrypi.org

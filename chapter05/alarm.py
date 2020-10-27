@@ -6,9 +6,9 @@
 # GUI code was created using Qt Designer 
 import sys
 import time
-from PyQt4 import QtCore, QtGui #PyQt4 is used for designing the GUI
-from espeak import espeak #text to speech sonversion
-from time import strftime # To get time from Raspberry pi
+from PyQt4 import QtCore, QtGui # PyQt4 is used for designing the GUI
+from espeak import espeak       # text to speech sonversion
+from time import strftime       # To get time from Raspberry pi
 #Code from Qt Designer
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
@@ -107,7 +107,6 @@ class Ui_MainWindow(object):
         espeak.synth (message) #speak the message through audio jack 
         
 if __name__ == "__main__": #main function 
-    
     app = QtGui.QApplication(sys.argv)
     MainWindow = QtGui.QMainWindow()
     ui = Ui_MainWindow()

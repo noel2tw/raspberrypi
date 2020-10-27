@@ -4,6 +4,9 @@ declare -a array
 # 아래는 4개의 배열 값을 지정하는 예제이다. 
 array=("my" "test" "array" "world")
 
+# 3번째 위치의 값을 바꾸는 예이다.
+array[3]="modify"
+
 # 기존 배열의 4번째 위치에 1개의 배열 값을 추가하는 예이다. 
 # 배열 값을 입력할 때 순차적으로 값을 입력할 필요는 없다. 
 array[4]="append"

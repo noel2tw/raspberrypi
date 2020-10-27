@@ -97,7 +97,7 @@ class Ui_MainWindow(object):
             
             
     def button_pressed(self): #when set alarm button is pressed 
-        print("Button Pressed")
+        print("버튼이 눌렸어요")
         alarm_time = str(self.Set_Time.time())
         
         self.alarm_h = int(alarm_time[19:21]) #value of hour is sotred in index value 19 and 20
@@ -107,6 +107,7 @@ class Ui_MainWindow(object):
         espeak.synth (message) #speak the message through audio jack 
         
 if __name__ == "__main__": #main function 
+    
     app = QtGui.QApplication(sys.argv)
     MainWindow = QtGui.QMainWindow()
     ui = Ui_MainWindow()

@@ -330,6 +330,10 @@ elif camera_type == 'usb':
         # Press 'q' to quit
         if cv2.waitKey(1) == ord('q'):
             break
+        
+        if cv2.waitKey(1) == ord('Q'):
+            break
+        
 
     camera.release()
         
